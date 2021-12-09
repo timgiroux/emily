@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+  body {
+    margin:auto;
+    }   
+  div.content {
+    max-width:80% !important;
+    }   
+  }
+body {
+/*  background-repeat:repeat;
+*/
+  background-image:url("emilybg.jpeg");
+  background-size:100%;
+  background-color:black;
+}
+div.content {
+  background-color:white;
+  padding:1em;
+  max-width:50%;
+  text-align:center;
+  margin:auto;
+  border-radius:1em;
+  margin-bottom:1em;
+}
+form {
+  display:inline
+}
+button {
+  padding:1em;
+}
+iframe {
+  width:220px;
+  height:220px;
+  border:none;
+}
+
